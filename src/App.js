@@ -32,6 +32,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
   return (
     <>
+      <h1 className="header">Tic Tac Toe Game</h1>
       <div className="status">{status}</div>
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
